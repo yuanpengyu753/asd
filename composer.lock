@@ -1,0 +1,116 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4e673f65b6e2b474a3a12acf622ce9dd",
+    "packages": [
+        {
+            "name": "houdunwang/response",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/houdunwang/response.git",
+                "reference": "c14aa1cc6390b5ed7421a8cc8b7acdcb9b31ebdc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/houdunwang/response/zipball/c14aa1cc6390b5ed7421a8cc8b7acdcb9b31ebdc",
+                "reference": "c14aa1cc6390b5ed7421a8cc8b7acdcb9b31ebdc",
+                "shasum": ""
+            },
+            "require": {
+                "houdunwang/xml": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helper.php"
+                ],
+                "psr-4": {
+                    "houdunwang\\response\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "后盾网向军",
+                    "email": "2300071698@qq.com"
+                }
+            ],
+            "description": "服务器状态码与数据响应组件",
+            "homepage": "http://www.houdunwang.com/",
+            "keywords": [
+                "ajax",
+                "hdphp",
+                "houdunwang",
+                "json"
+            ],
+            "time": "2017-05-22T04:28:44+00:00"
+        },
+        {
+            "name": "houdunwang/xml",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/houdunwang/xml.git",
+                "reference": "ecb81fab5b2f0b1a16625187a189f0b09ff149d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/houdunwang/xml/zipball/ecb81fab5b2f0b1a16625187a189f0b09ff149d6",
+                "reference": "ecb81fab5b2f0b1a16625187a189f0b09ff149d6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [],
+                "psr-4": {
+                    "houdunwang\\xml\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "后盾网向军",
+                    "email": "2300071698@qq.com"
+                }
+            ],
+            "description": "XML数据生成与解析组件",
+            "homepage": "http://www.houdunwang.com/",
+            "keywords": [
+                "hdphp",
+                "houdunwang",
+                "xml",
+                "后盾人",
+                "后盾网"
+            ],
+            "time": "2017-05-17T03:47:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
